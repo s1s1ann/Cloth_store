@@ -20,12 +20,12 @@ const slides = [
   {
     title: "Старо<br>Вонюче<br>Обблевано",
     description: "Старое дерьмо,<br>и ты все прямо обблеван.<br>Выгляди как бомж, плати как человек",
-    image: "images/hero/hero-2.jpg",
+    image: "images/hero/hero-1.jpg", // image: "images/hero/hero-2.jpg",
   },
   {
     title: "Криво<br>Стремно<br>Обдристано",
     description: "Шмот для тех,<br>кому уже прямо похуй,<br>но голым ходить очень стыдно",
-    image: "images/hero/hero-3.jpg",
+    image: "images/hero/hero-1.jpg", // image: "images/hero/hero-3.jpg",
   },
 ];
 

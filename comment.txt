@@ -1,0 +1,18 @@
+powershell:
+mkdir -p backend frontend
+cd ... (cd .. | cd backend | cd frontend)
+python3 -m venv venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\venv\Scripts\Activate.ps1
+deactivate
+python -m pip install fastapi uvicorn sqlalchemy pydantic python-dotenv
+python -m pip freeze > requirements.txt
+pip install pydantic-settings
+.\venv\Scripts\python.exe --version
+
+git bash:
+source venv/Scripts/activate
+touch __init__.py
+
+rest api состоит из:  модель, схема, репозиторий, сервис, роутер (models, schemas, repositories, services, routes)
